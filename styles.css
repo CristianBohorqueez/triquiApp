@@ -1,0 +1,25 @@
+* {
+     box-sizing: border-box;
+}
+
+.tablero {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    border: 10px solid #2196F3;
+}
+
+
+.casilla {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    text-align: center;  
+    position: relative;  
+}
+
